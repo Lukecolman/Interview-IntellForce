@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color:#000;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+
+.form-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 60vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    margin-bottom: 10px;
+    color: #007AFF ;
+    font-weight: bold;
+}
+
+input {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 500px;
+}
+
+button {
+    padding: 15px;
+    background-color: #007AFF ;
+    color: #fff;
+    border: none;
+    border-radius: 20px / 50%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1987ff;
+}
+.product-right, .product-left{
+    width: 50%;
+    height: 700px!important;
+    object-fit: cover;
+    overflow-x: visible;
+    z-index: 0;
+
+}
+
+.product-right-text{
+    text-align: center;
+    color: #fff;
+    z-index: 50;
+
+}
+
+.product-left-text{
+    width: 40%;
+    z-index: 50;
+}
+
+.display-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    min-height: 10vh;
+
+}
+.footer-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0 5px 0;
+}
+
+a:hover{
+    color: #1987ff;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li {
+    padding-top: 10px;
+}
